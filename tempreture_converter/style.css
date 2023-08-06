@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:black;
+  color: white;
+}
+.navbar {
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow:5px 5px 5px 5px  #68099f;
+  height: 90px;
+  /* #68099f */
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: black;
+  text-align: center;
+}
+#he {
+  padding-top: 20px;
+  font-size: 1.7rem;
+  text-indent: 10px;
+  text-shadow: 2px 2px 5px rgb(139, 36, 121);
+}
+.container {
+  color: black;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow:5px 3px 3px #1686d1 ;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  animation: forwards;
+}
+.input-div {
+  padding: 10px;
+}
+label {
+  font-size: 27px;
+  color: black;
+  font-weight: bolder;
+}
+.inp {
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  width: 250px;
+  text-align: center;
+ 
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        width: fit-content;
+    }
+    .inp {
+        padding: 5px 10px;
+        margin: 10px;
+        font-size: 30px;
+        font-weight: bolder;
+        width: 100px;
+        text-align: center;
+       
+      }
+      .container{
+        height: max-content;
+      }
+}
